@@ -3,18 +3,136 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cris Cabezas</title>
+    <meta name="description" content="Portafolio personal de Cris Cabezas, desarrollador web enfocado en crear experiencias digitales claras y modernas." />
+    <meta name="theme-color" content="#0f172a" />
+    <title>Cris Cabezas | Portafolio</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main>
-      <div class="card">
-        <h1>Bienvenido a mi página</h1>
-        <p>Sitio de GitHub Pages creado para el repositorio <strong>criscabezas</strong>.</p>
-        <div class="links">
-          <a href="https://github.com/criscabezas/criscabezas" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
+    <header class="hero" id="top">
+      <nav class="nav">
+        <a class="brand" href="#top">Cristhian Cabezas</a>
+        <div class="nav-links">
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#habilidades">Stack</a>
+          <a href="#proyectos">Experiencia</a>
+          <a href="#contacto">Contacto</a>
         </div>
+      </nav>
+
+      <div class="hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow">Senior Software Engineer • Java • Quarkus • Microservices</p>
+          <h1>Hola, soy Cristhian Cabezas.</h1>
+          <p>
+            Con más de 16 años de experiencia en desarrollo de software, arquitectura empresarial y modernización tecnológica, he liderado soluciones críticas en entornos tributarios, de gestión pública y transformación digital.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#proyectos">Ver experiencia</a>
+            <a class="button secondary" href="Profile.pdf" target="_blank" rel="noopener noreferrer">Ver perfil profesional</a>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Resumen profesional">
+          <img
+            class="avatar-photo"
+            src="https://avatars.githubusercontent.com/u/308774343?s=400&u=1f9782b6ae5abd5f33b695544b6685a614af962f&v=4"
+            alt="Foto de Cristhian Cabezas"
+          />
+          <h2>Disponible para retos técnicos y transformación digital</h2>
+          <p>Especializado en backend Java, microservicios, DevOps, BPM, Data &amp; AI y modernización de plataformas enterprise.</p>
+        </aside>
       </div>
+    </header>
+
+    <main>
+      <section class="section" id="sobre-mi">
+        <div class="section-heading">
+          <p class="eyebrow">Sobre mí</p>
+          <h2>Diseño y desarrollo soluciones escalables con enfoque en negocio, calidad y mejora continua.</h2>
+        </div>
+
+        <div class="about-grid">
+          <article class="info-card">
+            <h3>Trayectoria</h3>
+            <p>
+              He trabajado en proyectos nacionales de alto impacto en recaudación tributaria, recepción de información fiscal y devoluciones, integrando procesos de negocio y reglas de negocio para adaptarse a cambios regulatorios.
+            </p>
+          </article>
+          <article class="info-card">
+            <h3>Enfoque</h3>
+            <p>
+              Me interesa la arquitectura de software, la automatización, la modernización tecnológica y la creación de productos que aporten valor real a las organizaciones.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="habilidades">
+        <div class="section-heading">
+          <p class="eyebrow">Stack tecnológico</p>
+          <h2>Herramientas y tecnologías con las que trabajo para convertir ideas en soluciones robustas.</h2>
+        </div>
+
+        <div class="skills-list">
+          <span>Java</span>
+          <span>Quarkus</span>
+          <span>Jakarta EE</span>
+          <span>Microservicios</span>
+          <span>DevOps</span>
+          <span>BPM</span>
+          <span>Data &amp; AI</span>
+          <span>HTML / CSS / JavaScript</span>
+          <span>JBoss / Oracle / MySQL</span>
+        </div>
+      </section>
+
+      <section class="section" id="proyectos">
+        <div class="section-heading">
+          <p class="eyebrow">Experiencia</p>
+          <h2>Proyectos y áreas donde he aportado valor técnico y estratégico.</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Modernización de plataformas enterprise</h3>
+            <p>Migración tecnológica a Jakarta EE 10, Java 21 y JBoss 8, con foco en evolución de sistemas críticos y mejora de mantenibilidad.</p>
+            <div class="project-tags">
+              <span>Java</span>
+              <span>Arquitectura</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>Microservicios y automatización</h3>
+            <p>Diseño e implementación de soluciones basadas en Quarkus y automatización de procesos para responder a cambios normativos y operativos.</p>
+            <div class="project-tags">
+              <span>Quarkus</span>
+              <span>DevOps</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>Gestión pública y transformación digital</h3>
+            <p>Participación en iniciativas de innovación, BPM, liderazgo técnico y mejora continua para fortalecer los servicios digitales institucionales.</p>
+            <div class="project-tags">
+              <span>BPM</span>
+              <span>Liderazgo</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contacto">
+        <p class="eyebrow">Contacto</p>
+        <h2>Conectemos</h2>
+        <p>Estoy abierto a oportunidades de arquitectura, desarrollo backend, modernización tecnológica y colaboración en proyectos de alto impacto.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://www.linkedin.com/in/ccabezas/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a class="button secondary" href="https://github.com/criscabezas" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a class="button secondary" href="mailto:cristhiancabezas9@gmail.com">Email</a>
+        </div>
+      </section>
     </main>
   </body>
 </html>
